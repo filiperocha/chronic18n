@@ -1,4 +1,16 @@
+# encoding: utf-8
 pt_regex:
   !ruby/regexp '/semana qu?e? vem/': next week
+  !ruby/regexp '/semana passada/': last week
+  !ruby/regexp '/próxima semana/': next week
+  !ruby/regexp '/proxima semana/': next week
+  !ruby/regexp '/mes passado/': last month
+  !ruby/regexp '/mês passado/': last month
   !ruby/regexp '/mes qu?e? vem/': next month
+  !ruby/regexp '/próximo mes/': next month
+  !ruby/regexp '/proximo mes/': next month
   !ruby/regexp '/ano qu?e? vem/': next year
+  !ruby/regexp '/próximo ano/': next year
+  !ruby/regexp '/último ano/': last year
+  !ruby/regexp '/ultimo ano/': last year
+  !ruby/regexp '/ano passado/': last year
